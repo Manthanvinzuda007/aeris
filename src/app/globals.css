@@ -97,6 +97,11 @@ body {
   background-color: var(--surface-raised) !important;
 }
 
+/* Dark-mode filter for OpenStreetMap tiles */
+.dark-tiles {
+  filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7);
+}
+
 .leaflet-control-attribution {
   background-color: rgba(18, 24, 38, 0.8) !important;
   color: var(--text-muted) !important;
